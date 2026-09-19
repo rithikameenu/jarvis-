@@ -1,0 +1,58 @@
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python & Virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+fraud_detection.db
+
+# Chroma Vector DB
+chroma_db/
+.chroma/
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+.pnp
+.pnp.js
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
